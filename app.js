@@ -34,7 +34,7 @@ button.addEventListener("click", () => {
     // right
     let buttons = document.createElement("div");
     buttons.className = "buttons";
-
+    console.log(buttons);
     let editBtn = document.createElement("button");
     editBtn.className = "edit-btn";
     editBtn.innerText = "Edit";
